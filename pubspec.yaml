@@ -1,0 +1,21 @@
+name: DealiFy
+description: A Flutter app for managing brand deals and tracking earnings
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.1
+  shared_preferences: ^2.2.2  # For data persistence
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
